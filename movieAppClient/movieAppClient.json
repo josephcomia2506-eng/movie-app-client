@@ -1,0 +1,14 @@
+{
+  "url": "https://movieapp-api-lms1.onrender.com",
+  "endpoints": {
+    "register": "/users/register",
+    "login": "/users/login",
+    "movies": "/movies/getMovies",
+    "getMovie": "/movies/getMovie",
+    "addMovie": "/movies/addMovie",
+    "updateMovie": "/movies/updateMovie",
+    "deleteMovie": "/movies/deleteMovie",
+    "addComment": "/movies/addComment",
+    "getComments": "/movies/getComments"
+  }
+}
