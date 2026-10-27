@@ -47,7 +47,7 @@ router.beforeEach((to) => {
   }
 
   if (user.isLoggedIn && to.path === '/login') {
-    return '/movies';
+    return user.isAdmin ? '/admin' : '/movies';
   }
 });
 
